@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="db.changelog-7.0" author="Jordan Hoff">
+        <insert tableName="dorm">
+            <column name="dorm_id" value="0"/>
+            <column name="dorm_name" value="No Dorm" />
+            <column name="num_floors" value="0"/>
+            <column name="max_room" value="0"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="1"/>
+            <column name="dorm_name" value="Ballard" />
+            <column name="num_floors" value="4"/>
+            <column name="max_room" value="69"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="2"/>
+            <column name="dorm_name" value="Coberly" />
+            <column name="num_floors" value="4"/>
+            <column name="max_room" value="69"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="3"/>
+            <column name="dorm_name" value="Bradley" />
+            <column name="num_floors" value="9"/>
+            <column name="max_room" value="29"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="4"/>
+            <column name="dorm_name" value="Dixon" />
+            <column name="num_floors" value="9"/>
+            <column name="max_room" value="29"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="5"/>
+            <column name="dorm_name" value="Griffith" />
+            <column name="num_floors" value="9"/>
+            <column name="max_room" value="19"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="6"/>
+            <column name="dorm_name" value="Young" />
+            <column name="num_floors" value="9"/>
+            <column name="max_room" value="29"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="7"/>
+            <column name="dorm_name" value="Rice" />
+            <column name="num_floors" value="11"/>
+            <column name="max_room" value="72"/>
+        </insert>
+
+        <insert tableName="dorm">
+            <column name="dorm_id" value="8"/>
+            <column name="dorm_name" value="Campus House" />
+            <column name="num_floors" value="3"/>
+            <column name="max_room" value="32"/>
+        </insert>
+
+    </changeSet>
+    <changeSet id="tag-7.0" author="Jordan Hoff">
+        <tagDatabase tag="7.0"/>
+    </changeSet>
+</databaseChangeLog>

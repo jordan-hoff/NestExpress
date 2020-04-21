@@ -1,0 +1,17 @@
+header {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0px 15px 15px;
+    text-align: left;
+    height: 50px;
+  }
+
+#image:hover{
+    width: 30px;
+}
+
+#image{
+    width: 27px;
+    transform: scale(0.920);
+    padding-top: -10px;
+}

@@ -1,0 +1,240 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+#page{
+    background-image: url(https://drive.google.com/uc?id=13zRn8BPdvonQhJ8w8AISfwrFI9WV5ZqX);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#flexBody{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card{
+    padding-bottom: 40px;
+    margin: 90px auto 0px auto;
+    max-width: 995px;
+    background-color:white;
+}
+
+#footer{
+    bottom: 0;
+    position: absolute;
+}
+
+#html{
+    height: 100%;
+    animation: fadeIn 1s ease-in both;
+    background-size: cover;
+}
+
+#img{
+    animation: fadeIn 2s ease-in both;
+}
+
+#welcomeHeading{
+    color: #F7882F;
+    font-size: 40pt;
+    padding-top: 40px;
+    margin-top: -10px;
+    text-align: center;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexH2{
+    margin: -10px 0px 20px 0px;
+    padding-right: 30px;
+}
+
+h2{
+    color: #F7882F;
+    margin-left: 30px;
+    font-weight: 400;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+h3{
+    padding: 10px 0px 20px 0px;
+    font-size: 20pt;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexOrderNumTxt{
+    text-align: left;
+    font-size: 18pt;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexOrderNum{
+    padding-left: 5px;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+
+}
+
+#orderNum{
+    font-size: 18pt;
+    text-align: left;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexOrderTotalTxt{
+    text-align: left;
+    font-size: 18pt;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#orderTotal{
+    font-size: 18pt;
+    text-align: left;
+    padding-left: 5px;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexDate{
+    text-align: left;
+    font-size: 18pt;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#date{
+    font-size: 18pt;
+    text-align: left;
+    padding-left: 5px;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexDelivery{
+    text-align: left;
+    font-size: 18pt;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#flexDeliveryAddress{
+    text-align: left;
+    font-size: 18pt;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#deliveryDate{
+    font-size: 18pt;
+    text-align: left;
+    padding-left: 5px;
+    animation: fadeIn 2s ease-in both;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+/* Button Animation */
+#btnContinueShopping {
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    color: #F7882F;
+    background-color:white;
+    font-weight:700;
+    border-color: #ff9800;
+    width: 300px;
+    margin-top: 60px;
+    font-size: 15pt;
+    border: 2px solid orange;
+	position: relative;
+    animation: fadeIn 3s ease-in both;
+}
+
+#btnContinueShopping:hover{
+    background-color:#F7882F;
+    color:white;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    content: '>>';
+}
+
+#flexContinueShopping{
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h4{
+    font-size: 25pt;
+    color: black;
+    font-weight: 700;
+    padding-top:50px;
+    animation: fadeIn 3s ease-in both;
+}
+
+#footer{
+    width: 100%;
+}
+
+/* Featured Items */
+.productsHeading {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+#homeItems {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#price {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    float: center;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    margin: auto;
+}
+
+#featuredItemName {
+    font-size: 15px;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+#featuredItemCard {
+    background-color: rgba(185, 181, 181, 0.979) !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+    background: white !important;
+}
+
+/* Page Animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes icon {
+    from {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1)
+    }
+  }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="db.changelog-3.0" author="Senario Bethel">
+        <createTable tableName="image_url">
+            <column name="i_id" type="int(8)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="url" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="p_id" type="int(8)">
+                <constraints nullable="false" foreignKeyName="fk_p_id" references="[product](p_id)"/>
+             </column>
+        </createTable>
+        <rollback>
+            <dropTable tableName="image_url"/>
+        </rollback>
+    </changeSet>
+	    <changeSet id="tag-3.0" author="Senario Bethel">
+		    <tagDatabase tag="3.0" />
+	</changeSet>
+</databaseChangeLog>

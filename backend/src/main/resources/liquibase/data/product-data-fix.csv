@@ -1,0 +1,286 @@
+"p_id"`"category"`"product_name"`"price"`"descript"`"color"`"keywords"
+
+1`1`3M Scotch Magic Tape`1.65`The original invisible tape that is fit to do the job.`NULL`school supplies scotch tape Art
+2`1`3M Scotch Scissors`3.75`Equipped with high quality stainless steal blades that are perfect for fabrics, paper, and photos.`NULL`school supplies scotch scissors Art Office Supplies
+3`1`Scotch Brand 860 Adhesive Putty Removable`4.40`This adhesive putty solution works on the most porous and non-porous surfaces.`NULL`school supplies scotch putty Art
+4`1`3M Scotch Tough Duct Tape`3.80`Tough Duct Tape that is black in color is the doctor to all things broken and easily tears by hand.`NULL`school supplies scotch tape Art
+5`1`3M Scotch Transparent Tape`1.25`Scotch Transparent Tape is ideal for multipurpose sealing and label protection.`NULL`school supplies scotch tape Art Office Supplies
+6`1`3M Scotch Ultra Clear Packing Tape`2.95`Scotch Ultra Clear Packing Tape is ideal for sealing large boxes and containers.`NULL`school supplies scotch tape Office Supplies
+7`1`Acco 100-Count Paper Clips`0.45`Acco Paper Clips are ideal for binding papers together without the use of staples.`NULL`school supplies paper clips Office Supplies
+8`1`Advantage Rubber Bands`1.35`Advantage Rubber Bands is easy to stretch yet durable to keep any form of documents or items together.`NULL`school supplies pencil case Office Supplies Art
+9`1`Homecube Pencil Case Big Capacity Pencil Bag `8.95`Homecube pencil case has a lot of room and includes an easy-to-view compartment.`NULL`school supplies pencil case Office Supplies
+10`1`Maped ErgoLogic Stapler`2.35`Maped ErgoLogic Stapler is perfect for keeping any form of document stapled together.`NULL`school supplies stapler maped Office Supplies
+11`1`Maped GreenLogic Stapler`1.85`Maped GreenLogic Stapler is perfect for keeping any form of document stapled together.`NULL`school supplies stapler maped Office Supplies
+12`1`Pentel 12-Piece .5mm Lead`0.99`Pentel .5mm Lead is great for taking notes or sketching a masterpiece.`NULL`school supplies lead pencil pentel Office Supplies
+13`1`Pentel 12-Piece .7mm Lead`0.99`Pentel 12-Piece .7mm Lead is great for taking notes or sketching a masterpiece.`NULL`school supplies lead pencil pentel Office Supplies
+14`1`Pentel RSVP Fine Pen Black`0.90`Pentel RSVP Fine Pen Black writes smooth using a stainless steel tip that moves smoothly throughout any paper.`NULL`school supplies pen black pentel Office Supplies
+15`1`Pentel RSVP Medium Pen Red`0.90`Pentel RSVP Fine Pen Red writes smooth using a stainless steel tip move throughout the paper.`NULL`school supplies pen black pentel Office Supplies
+16`1`Pilot G2 8-Pack Pen Assorted`9.25`Pilot G2 pen writes smoothly and lasts longer than the average competitive brands.`NULL`school supplies pen pilot Office Supplies
+17`1`Pilot G2 Pen Black`1.85`Pilot G2 pen writes smoothly and lasts longer than the average competitive brands.`NULL`school supplies pen pilot black Office Supplies art
+18`1`Pilot G2 Pen Blue`1.85`Pilot G2 pen writes smoothly and lasts longer than the average competitive brands.`NULL`school supplies pen pilot blue Office Supplies art
+19`1`Sharpie 4-Pack Pen Assorted`7.65`Sharpie's remarkably resilient ink dries quickly and resists both fading and water, AP certified.`NULL`school supplies sharpie black pen Office Supplies art
+20`1`Zebra MF301 2-Pack Pencil/Pen`4.75`Zebra's Steel line offers a collection of remarkable writing instruments that are a significant upgrade from everyday plastic pens.`NULL`school supplies pen zebra pencil Office Supplies Art
+21`1`Zebrite 5-Pack Highlighter Assorted`6.15`The Zebra Mildliner pen features a broad and fine point tip for all hand lettering and marking applications.`NULL`school supplies zebrite highlighter Office Supplies
+22`2`At-A-Glance 2020-2021 Planner`5.95`At-A-Glance Planner helps you to stay up-to-date with any upcoming events ranging from school work to recreational outings.`NULL`school supplies planner book books notebooks
+23`2`Mead 1-Subject College Ruled Notebook 5" x 7"`3.20`Mead notebook has a sturdy cardboard that allows you to write without a desk surface.`NULL`school supplies book books mead notebooks college
+24`2`Cambridge Limited Action Planner Notebook`7.50`Cambridge Limited Action Planner helps you to stay up-to-date with any upcoming events ranging from school work to recreational outings.`NULL`school supplies planner book books cambridge notebooks
+25`2`Oxford FocusNotes Composition Notebook 7.5" x 9.75"`2.95`Cornell-ruled provides a systematic format for condensing and organizing notes.`NULL`school supplies book oxford notebooks
+26`2`Georgia-Pacific Standard 500-Sheet Multipurpose Paper`4.25`This versatile paper comes with no frills or fuss, just dependable quality you can trust for those daily tasks around the home or office.`NULL`school supplies paper georgia pacific multipurpose Office Supplies
+27`2`TOPS The Legal Pad Writing Pads 50-Sheets`0.95`TOPS The Legal Pad Writing Pads offer the ultimate value in reliable everyday legal pads for home or office.`NULL` school supplies pad tops book books Office Supplies
+28`2`Mead 100-Count 4 x 6 Flash Plain Cards`1.20`Mead Index Card 4" x 6", 100/Pack cards are perfect taking quick notes.`NULL`school supplies cards flash mead office
+29`2`Mead 3 x 2.5 Color Index Cards 200-Cards`6.40`Mead Printable Index Cards add color to your notes.`NULL`school supplies cards flash mead index
+30`2`Mead 3 x 5 Ruled Colored Index Cards 70-Cards`4.65`Mead Printable Index Cards add color to your notes.`NULL`school supplies cards flash mead index
+31`11`Swedish Fish Mini`2.65`SWEDISH FISH Soft Chewy Candy delivers the classic flavor and easily recognizable shape in delicious soft; chewy candy pieces.`NULL`snack swedish fish candy
+32`2`Mead Five Star 1-Subject College Ruled Spiral Notebook`5.55`Mead Five Star notebook has a sturdy cardboard that allows you to write without a desk surface.`NULL`school supplies book notebooks mead spiral
+33`2`Oxford 3 x 5 Grid Index Cards`0.95`A versatile choice - use horizontally or vertically.`NULL`school supplies oxford index cards spiral
+34`2`Oxford 3 x 5 Spiral Ruled Index Cards`1.55`Oxford spiral design keeps all your notes self-contained for easy reference while the perforated edge allows for easy removal of cards.`NULL`school supplies oxford index cards spiral
+35`2`PCC 1-Subject Spiral Notebook`3.75`PCC's very own spiral notebook that consists of neat sheet perforated pages for clean tear-out.`NULL`school supplies pcc notebooks book spiral
+36`2`PCC 2020 Activity Planner`5.00`PCC's planner that keeps you up to date with all upcoming events held at PCC. The planner also helps you to remember the due dates of upcoming assignments.`NULL`school supplies pcc planner book
+37`2`PCC 3-Subject Spiral Notebook`4.25`PCC's very own spiral notebook that is fit for 3 subjects and consists of neat sheet perforated pages for clean tear-out.`NULL`school supplies pcc spiral book notebooks
+38`2`PCC 5-Subject Spiral Notebook`6.10`PCC's very own spiral notebook that is fit for 5 subjects and consists of neat sheet perforated pages for clean tear-out.`NULL`school supplies pcc spiral book notebooks
+39`2`Top Flight LXE 3 Subject Translucent Poly Cover Twin Wirebound Notebook`3.15`This 3-subject wirebound notebook has an oversized durable translucent die cut poly cover and is bound with a twin black wire.`NULL`school supplies top spiral book notebooks
+40`4`Jansport Backpack`24.95`This padded backpack makes it easy to carry your gear and has a front pocket that offers an organizer to allow separate spaces for different items.`NULL`school supplies bag backpack jansport
+41`4`Under Armour Storm Contender Backpack`51.99`UA Storm technology delivers an element-battling and highly water-resistant finish that is perfect for any occasion.`NULL`school supplies bag backpack underarmour
+42`5`Centon 16GB Flash Drive`8.95`Classic USB 2.0 flash drive that provides reliable storage for all your digital files.`NULL`school supplies flash drive centon Office Supplies
+43`6`Bienfang Watercolor Paper Pad 9-Inch by 12-Inch`6.70`Medium white watercolor paper with medium surface texture that is excellent for use with watercolor and mixed media.`NULL`school supplies paper pad bienfang Office Supplies
+44`6`Bienfang Graphics 360 12 by 9-Inch Translucent Marker Paper`16.95`Bienfang Paper Retains true color with permanent as well as watercolor markers.`NULL`school supplies paper marker bienfang Office Supplies
+45`6`Strathmore 300 Series Paper 40 Sheet Disposable Palette`4.45`Strathmore 300 Series Paper Palette has a surface covered with a special plastic coating so that the paint mixes easily and never soaks through.`NULL`school supplies paper strathmore Office Supplies
+46`6`General Tri-Tip White Eraser`2.00`General Tri-Tip White Eraser soft Factis eraser perfect for charcoal, pastel, and graphite. It is also ideal for fine papers and precision erasing.`NULL`school supplies eraser rubber art
+47`6`Futura White Card Stock - 18 x 12 in 80 lb Cover Gloss Paper`0.25`Futura gloss paper is coated on both sides and provides perfect digital printing that rivals offset quality.`NULL`school supplies paper white futura art
+48`6`Gorilla Super Glue (0.53 Oz.)`4.97`It's high strength and quick set time make Gorilla Super Glue the go-to for a variety of household projects. Developed for long-lasting repairs in an instant.`NULL`school supplies gorilla glue art
+49`6`KUM Art Precision Sharpener`6.50`KUM's innovative blade technology with Dynamic Torsion Action ensures the smoothest cuts with the least chance of pencil tip breakage.`NULL`school supplies pencil sharpener kum art
+50`6`Lyra Art Design Drawing Pencils`12.20`Lyra's Art Pencil is made with premium graphite that has break resistance leads.`NULL`school supplies lyra art pencil
+51`6`Sta-Wet Handy Palete Acrylic Paper`17.20`Sta-Wet Handy Palete Acrylic Paper is perfectly sized for small projects or classroom use and keeps paints moist for days or even weeks!`NULL`school supplies paper acrylic stawet Office Supplies
+
+52`7`God's Little Devotional Book for Boys`11.15`It only takes a few minutes every day to discover the God who loves you. He knows you and wants the very best for you. These pages are filled with fun devotions and stories along with powerful scriptures for boys.`NULL`devotional book books God's children
+53`7`I Can Be Kind`5.15`Scripture teaches us to love our neighbors by treating them with kindness and respect. One aspect of kindness includes manners and this book will develop these behaviors into your children.`NULL`book books manners I can children
+54`7`I prayed for you by Jean Fischer`7.05`Mama bear surrounds her cub with love and shows the power of prayer. "Even before you were born. I prayed for you."`NULL`book prayed jean fischer children books
+55`7`Thank you God for Daddy`7.85`In this adorable board book there is a little lion cub thanks God for his wonderful daddy, a daddy who gives big hugs and piggy back rides.`NULL`book thank you Lord children books
+56`7`God loves Daddy Me`7.80`Cuddle up cozy, close with an adorable reminder of God’s love for daddies and their little ones.`NULL`book God loves children books
+57`7`Humble Heart: A Book of Virtues`11.15`Humble Heart: A Book of Virtues is a collection of nine delightful stories from illustrator and author Amy Meyer Allen based on her popular Humble Bumbles characters.`NULL`book humble heart children books
+58`7`Bible Story Mazes`2.30`This 48 page full-color workbook is intended to encourage children to learn Bible stories from the New and Old Testaments.`NULL`book bible bibles story children books
+59`7`The Wonder Devotional Standing for God`1.50`The Wonder Devotional Book: What A God - Two months of daily devotionals.`NULL`book devotional word bibles books
+60`7`Little Green Frog`6.85`Follow the Little Green Frog as he introduces your baby or toddler to his friends by the pond. Simple sentences reinforce future language structure while grasping and lifting the sturdy flaps helps develop fine motor skills.`NULL`book little frog children books
+61`7`Story Time Collections`12.35`Train-obsessed boys ages 2 to 5 will love this deluxe 320-page hardcover storybook collection with thirteen Thomas Friends adventures.`NULL`book story time children books
+62`7`Billy and Blaze`5.75`Billy was a little boy who loved horses more than anything else in the world.`NULL`book billy blaze children books
+63`7`Blaze Finds the Trail`5.75`Billy and his pony Blaze love to explore the forest. So one day they set out on an old woodland road that is new to them.`NULL`book blaze trail children books
+64`8`Matthew Henry's Commentary on the Whole Bible`15.25`The Most Popular Commentary Ever Written in a Easy-to-Read Modern Edition.`NULL`book matthew commentary bible bibles henry books
+65`8`Matthew Poole's Commentary on the Holy Bible V1`12.50`This book is a useful and practical commentary on the whole Bible. It provides verse-by-verse insight.`NULL`book matthew poole commentary bible bibles books
+68`8`The Book of Ezekiel`19.75`The Book of Ezekiel is one of the major prophetic books in the Old Testament and had more influence on Revelation than any other book.`NULL`book ezekiel bible bibles books
+69`8`A Guide to the Psalms`15.75`An attempt is made by the arrangement of the text to indicate to some extent the principle of parallelism, a characteristic of Hebrew poetry.`NULL`book bible bibles psalms books
+70`8`A Survey of the Old Testament`13.85`A Survey of the Old Testament provides an indispensable guide for undergraduate students and other readers.`NULL`book old testament survey books
+71`8`Divinity Boutique Bible Business Report Cover`6.50`This Deluxe Faux leather Bible, showcases intricate details of the scriptures.`NULL`book bible bibles report divinity books
+72`8`The Old Scofield Study Bible`29.99`This easy-to-carry Bonded Leather edition of the renowned Old Scofield Study Bible offers a wealth of study materials at a fantastic price.`NULL`book study bible bibles scofield books
+73`8`KJV Study Bible Personal Size`25.99`The KJV Study Bible honors the beauty and majesty of the KJV by presenting the ONLY full-color King James Version study Bible available.`NULL`book bible Kbibles JV study books
+74`9`The Reagan Diaries`18.85`The diaries our the 40th president kept while in office was edited and abridged by historian Brinkley a.k.a The Great Deluge.`NULL`book reagan diaries biography books
+75`9`God and Ronald Reagan`15.25`Ronald Reagan is hailed today for a presidency that restored optimism to America. This book reveals his Christian faith.`NULL`book ronald reagan biography books
+76`9`Quiet Strength by Tony Dungy`11.90`In this book, Tony Dungy reveals the secrets to his success that have kept him on track.`NULL`book quiet strength biography books
+77`9`Evidence Not Seen`13.35`This book reveals the harrowing account of a young man who risked his life to smuggle Bibles through the borders of closed nations. An expanded edition by Brother Andrew.`NULL`book evidence novel biography books
+78`9`God's Smuggler`11.55`This books reveals the harrowing account of a young man who risked his life to smuggle Bibles through the borders of closed nations. An expanded edition by Brother Andrew.`NULL`book smuggler God other genres books
+79`10`The Hidden Flame (Acts of Faith)`11.5.00`Popular Christian authors Bunn and Oke unite in the second installment in the Acts of Faith series to tell the story of Abigail.`NULL`book hidden flame other genres books
+80`10`The Centurion's Wife`11.55`In Davis book, BunnJanette Oke has dreamed for years of retelling a story in a biblical time frame from a female protagonist's perspective. This epic drama is threaded with the tale of an unlikely romance and framed with dangers and betrayals from unexpected sources.`NULL`book centurion davis bunn other genres books
+81`10`Presumption of Guilt`12.00`Just one person can save the children from a terrifying future. Read more to discover more of Terri Blackstock's masterpiece.`NULL`book blackstock presumption other genres books
+82`10`Justifiable Means`12.00`A violent criminal with a knack for evading justice. A beautiful victim with a secret to hide. Between them stands one good cop that is torn between justice and the law. Written by Terri Blackstock's.`NULL`book blackstock justifiable other genres books
+83`10`Evidence of Mercy`12.00`The plane crash nearly ended Lynda's life. Was it an accident or sabotage? Written by Terri Blackstock's.`NULL`book blackstock evidence other genres books
+84`10`Anne of Green Gables`6.75`Anne of Green Gables is a 1908 novel by Canadian author Lucy Maud Montgomery. This novel has been considered a children's novel since the mid-twentieth century.`NULL`book anne green books
+85`10`Anne of Avonlea`6.25`Anne of Avonlea is a 1909 novel by Canadian author Lucy Maud Montgomery.`NULL`book anne avolena children books
+86`10`Anne of the Island`6.50`Anne of the Island is the third book in the Anne of Green Gables series.`NULL`book anne island children books
+87`10`Song of Encouragement`13.25`Discover five biblical men who quietly changed eternity without recognition or fame, knowing their reward wouldn't come until the next life.`NULL`book francine rivers song encouragement books
+88`26`Are These The Last Days`15.55`Jesus predicted the destruction of the Jewish temple in Jerusalem at the end of his ministry.`NULL`book last days novel books
+89`26`The Textual Criticism of the New Testament`15.99`This book was originally published prior to 1923 and represents a reproduction of an important historical work.`NULL`book guide new testament books
+90`26`Thy Kingdom Come`13.99`A thorough study that traces the kingdom program from Genesis to Revelation by Dwight Pentecost.`NULL`book thy kingdom dwight pentecost books
+91`26`The End Times`12.99`Herman A. Hoyt's book is a well-documented and understandable guide to the end times and is used extensively as a text in Bible colleges.`NULL`book end times herman hoyt books
+92`26`Cruden's Complete Concordance`13.99`A Complete Concordance to the Holy Scriptures.`NULL`book cruden concordance books
+93`26`The New Strong's Exhaustive Concordance of the Bible`15.97`This book is the Exhaustive Concordance of the Bible that is an index of every word in the King James Version.`NULL`book bible bibles new concordance books
+94`26`The New Moody Atlas of The Bible`17.95`The Moody Atlas of Bible Lands integrates the geography of Bible lands with the teachings of the Bible. Written by Barry J. Beitzel.`NULL`book bible bibles new moody barry books
+95`26`The One Year Family Devotions`15.95`The One Year Book of Family Devotions offers a full year's worth of delightful stories and relevant Bible passages to boost your family's devotion time.`NULL`bible bibles famimly devotion books
+96`26`Streams in the Desert`13.99`Streams in the Desert is a legacy of faith and wisdom, written by Mrs. Charles E. Cowman.`NULL`book streams desert charles cowman other genres books
+97`26`God's Word for God's Workers`17.99`God's Word for God's Workers: A Daily Devotional Guide for Children's Worker was written by Sam Doherty.`NULL`book god word workers sam doherty other genres books
+98`26`Grandpa Do You Remember When? by Jim Daly`13.95`This latest heirloom-worthy journal will encourage grandfathers to record their legacy of stories.`NULL`book jim daly grandpa children books
+99`26`Grandma Do You remember When? by Jim Daly`12.50`In this keepsake journal grandchildren can discover cherished events that shaped their grandmother's legacy.`NULL`book jim daly grandma children books
+
+100`11`Reeses Pieces`2.65`Small pieces of peanut butter chocolate flavor.`NULL`reeses candy bar candybar snack chocolate peanutbutter snacks
+101`11`Skittles Original Fruit Candy (2.17 Oz.)`2.25`Taste each color of the rainbow with every bite.`NULL`skittles candy snack snacks
+102`11`TWIZZLERS Strawberry Candy Twists (4.1 Oz.)`1.65`A strawberry flavor treat that can add a twist to your taste buds.`NULL`twizzlers snack candy snacks
+103`11`LifeSavers Mints`2.2`Keep your breath fresh with the minty flavor of LifeSavers mints.`NULL`lifesavers mints candy snack snacks
+104`11`Starlight Mints`1.25`StarLight Mints will keep your breath fresh with a hint of sweetness.`NULL`mints candy snack starlight snacks
+105`11`M&M Peanut Chocolate Candy (1.74 Oz.)`2.65`Made with roasted peanuts covered in chocolate to satisfy anyone's sweet tooth.`NULL`M&M peanuts chocolate candy snack snacks
+106`11`M&M Peanut Butter Chocolate Candy (1.74 Oz.)`2.65`Made with creamy peanut butter and real milk chocolate.`NULL`M&M peanuts chocolate candy snack peanutbutter snacks
+107`11`M&M Milk Chocolate Candy (1.74 Oz.)`2.65`Made with real milk chocolate.`NULL`M&M peanuts chocolate candy snack milkchocolate snacks
+108`11`Haribo Goldbears Gummi Candy`1.45`Contains 5 pounds of fruity flavors which can please any sweet tooth.`NULL`haribo goldbears gummi candy snack snacks
+109`11`SweeTARTS Gummies Candy (12 Oz.)`1.95`SweeTARTS Gummy fruit is bursting with different flavors.`NULL`gummi candy snack sweeTARTS snacks
+110`11`LifeSavers Gummies`2.20`Sweeten up your day with a pack of LifeSavers Gummies which consists of numerous flavors.`NULL`gummi candy snack lifesavers snacks
+111`11`Welch's Fruit Snack`1.40`Delicious fruit snacks where fruit is the 1st Ingredient.`NULL`snack Welch fruit snacks
+112`11`Planters Salted Peanuts (1 Oz.)`0.95`Planters Salted Peanuts follow the original Planters recipe. Each peanut is finely seasoned with sea salt to enhance the natural roasted nut flavor.`NULL`snack peanuts planters salted snacks
+113`11`KitKat Chocolate Candy Bar`0.95`Take a break and enjoy a 5 layer of wafers covered in milk chocolate treat.`NULL`candy chocolate candybar kitkat bar snack snacks
+114`11`HERSHEY'S Cookies 'n' Creme Candy Bar`0.95`A swirling delicious white chocolate flavored creme with yummy chocolate cookie bits.`NULL`candy snack chocolate cookiesncreme candybar hershey bar snacks
+115`11`SNICKERS Chocolate Candy Bar`0.95`Made with caramel; nougat; peanuts and milk chocolate that no one can resist.`NULL`snack candy candybar chocolate snickers bar snacks
+116`11`TWIX Caramel Chocolate Cookie Candy Bar`0.95`A savory caramel covering a cookie coated in delicious chocolate. Take a pause and enjoy a TWIX.`NULL`snack candy candybar chocolate twix caramel bar snacks
+117`15`Nature Valley Almond Butter Granola Cups`1.15`A creamy delicious treat made to satisfy any hunger.`NULL`snack nature valley almond butter granola bars snacks
+118`12`Hostess Donettes Mini Glazed Donuts`1.65`A delicious white cake covered with a sweet glaze. This is a perfect quick snack for those busy mornings.`NULL`snack glazed donuts donettes hostess snacks
+119`12`Nissin Top Ramen Chicken Flavor`0.55`Nissin top ramen is perfect for a quick meal bursting with an amazing chicken flavor.`NULL`snack noodles ramen top nissin snacks
+120`12`Nissin Chow Mein Premium Teriyaki Beef`1.75`An authentic restaurant quality asian chow mein with vegetables that can be made within 5 minutes.`NULL`snack nissin chow mein beef teriyaki noodles snacks
+121`12`Indomie Instant Noodles Soup Special Chicken Flavor`0.93`Indomie is perfect for a quick meal bursting with an amazing chicken flavor`NULL`snack noodles indomie chicken snacks
+122`12`Indomie Mi Goreng Instant Halal Hot and Spicy Stir Fry Noodles`0.93`Indomie hot and spicy flavor is perfect for a quick meal. It's spicy flavor adds just the right kick.`NULL`snack indomie noodles hot spicy stir fry snacks
+123`12`Kellogg's Rice Krispies Treats Crispy`2.30`Make snack time a little sweeter with Snap with a little Crackle and a Pop.`NULL`snack kellogg rice krispies snacks
+124`12`ACT II Butter Lovers Microwave Popcorn`0.35`ACT II popcorn has the perfect blend of rich butter flavor and just the right amount of salt.`NULL`snack act butter popcorn snacks
+125`13`Chex Mix Traditional Snack Mix (3.75 Oz.)`1.75`Chex Mix is made of Chex wheat; pretzels; rye chips and mini breadsticks combined with a unique seasoning blend for a one-of-a-kind snack.`NULL`snack chex traditional pretzel snacks
+126`13`Chex Mix Bold Party Blend (3.75 Oz.)`1.75`A zesty array of corn Chex wheat; mini breadsticks; pretzels and rye chips.`NULL`snack chex bold pretzel snacks
+127`13`COMBOS Cheddar Cheese Baked Cracker (0.93 Oz.)`0.75`Made with real cheese, combos are perfect for a quick on the go snack.`NULL`snack combo cheddar cheese cracker snacks
+128`13`Lay's Classic Potato Chips (1 Oz.)`1.25`A crispy and delicious snack perfect for any event.`NULL`snack lay's classic chips potato snacks
+129`13`Lay's Potato Chips Barbecue (1 Oz.)`1.25`Seasoned to capture all the delicious flavors of a backyard barbecue.`NULL`snack lay's classic chips potato snacks
+130`13`Ruffles Cheddar Sour Cream Flavored Potato Chips (1 Oz.)`1.25`Delicious flavors of real cheddar cheese and fresh sour cream for a unique taste experience.`NULL`snack ruffles cheddar sour cream snacks
+131`13`Doritos Nacho Cheese Flavored Tortilla Chip- 1 Ounce`1.25`Crunchy and delicious tortilla chips perfect for any setting.`NULL`snack Doritos nacho cheese chip snacks
+132`13`Tostitos Scoops! Party Size Tortilla Chips`3.25`Real corn tortillas perfect for dipping.`NULL`snack tostitos scoops chips snacks
+133`13`Pringles Original Flavored Potato Crisps Chips (5.2 Oz.)`2.55`Satisfy your snack craving with the irresistible taste of original potato chip.`NULL`snack pringle original potato chips snacks
+134`13`Pringles Salt Vinegar Flavored Potato Crisps Chips (5.2 Oz.)`2.55`Satisfy your snack craving with the irresistible taste of salt vinegar potato chip.`NULL`snack pringle salt vinegar potato snacks
+135`14`OREO King Size 10 `1.56`Enjoy an Oreo sandwich with even more rich creme filling between the bold taste of two chocolate wafers`NULL`snack oreo cookie snacks
+136`16`BORDEN Dutch Chocolate Milk - PINT`1.45`Made with milk dutch chocolate with creamy rich taste.`NULL`drink milk chocolate dutch borden snack beverages drinks beverage snacks
+137`16`BORDEN Whole Milk - PINT`1.45`BORDEN whole milk rich in vitamin D.`NULL`drink milk whole dutch borden snack beverages drinks beverage snacks
+138`16`Simply Orange Pulp Free Orange Juice`1.85`Experience the delicious taste of Simply 100% orange juice.`NULL`drink simple orange juice simply snack beverages drinks beverage snacks
+139`16`Savia Aloe Vera Pineapple Juice`1.55`Savia Aloe Vera is packed with vitamin C and a perfect fusion of flavor.`NULL`drink savia aloe vera pineapple juice snack beverages drinks beverage snacks
+140`16`SToK Vanilla Cold Brew Coffee`3.25`SToK coffee is brewed at lower temperatures to bring out every bold flavor.`NULL`drink stok vanilla cold coffee snack beverages drinks beverage snacks
+141`16`SToK Mocha Cold Brew Coffee`3.25`SToK coffee is brewed at lower temperatures to bring out every bold flavor.`NULL`drink stok mocha cold coffee snack beverages drinks beverage snacks
+142`16`AriZona Kiwi Strawberry Fruit Juice Cocktail (23 Fl. Oz)`0.99`Arizona Kiwi Strawberry Fruit Juice is an all-natural tea infused with a mixture of strawberries and kiwies.`NULL`drink beverages drinks beverage arizona kiwi strawberry snack snacks
+143`16`AriZona Green Tea with Honey (23 Fl. Oz.)`0.99`Arizona Green Tea is an all-natural tea infused with ginseng and sweetened with Sue Bee Premium Orange Honey.`NULL`drink beverages drinks beverage arizona green tea snack
+144`16`AriZona Fruit Punch Juice Cocktail (23 Fl. Oz.)`0.99`Arizona Fruit Punch is made with all-natural flavors and is filled with vitamin C.`NULL`drink beverages drinks beverage arizona fruit punch snack snacks
+145`16`AriZona Sweet Tea (23 Fl. Oz.)`0.99`Arizona Sweet Tea is made with 100% natural flavors.`NULL`drink arizona sweet tea snack beverages drinks beverage snacks
+146`16`AriZona Watermelon (23 Fl. Oz.)`0.99`Arizona Watermelon is made with all-natural flavors and is filled with vitamin C.`NULL`drink arizona watermelon snack beverages drinks beverage snacks
+147`16`Powerade Orange Sports Drink (32 Fl. Oz)`1.95`Powerade is filled with a advanced Electrolyte System that helps replenish four electrolytes lost in sweat.`NULL`drink beverages drinks beverage powerade orange snack snacks
+148`16`Powerade Fruit Punch Sports Drink (32 Fl. Oz.)`1.95`Powerade is filled with a advanced Electrolyte System that helps replenish four electrolytes lost in sweat.`NULL`drink drinks powerade fruit punch snack snacks
+149`16`Dr. Pepper Soda (20 Fl. Oz.)`1.55`Dr Pepper is a soft drink with an authentically different taste that consists of 23 signature flavors blended into one deliciously unique beverage.`NULL`beverages drinks beverage drink soda pepper snack
+150`16`Dasani Purified Water (10 Fl. Oz.)`1.16`Dasani water is enhanced with minerals for a pure fresh taste.`NULL`drink water dasani snack beverages drinks beverage
+151`16`Coca-Cola Bottle (20 Fl. Oz.)`1.55`Enjoy Coca-Cola's delicious taste with meals or on the go.`NULL`drink soda coke snack beverages drinks beverage
+152`16`Sprite Bottle (20 Fl. Oz.)`1.55`Sprite is made with lemon-lime flavor to quench your thirst.`NULL`drink sprite soda snack beverages drinks beverage
+153`17`Hot Pockets Pepperoni Pizza`3.95`Hot Pocket is made with 100% real cheese and is filled with flavors that will keep you feeling full.`NULL`snack hot pocket pepperoni pizza snacks
+154`17`Blue Bell Gold Rim Homemade Vanilla Ice Cream (64 Oz.)`2.95`Blue Bell homemade-tasting vanilla ice cream with a special hand-crafted flavor that's the best in the country.`NULL`snack icecream vanilla blue bell snacks
+
+155`18`Dove Men+Care Body and Face Wash Clean Comfort (13.5 Oz)`5.75`Dove Men+Care Clean Comfort Body Wash provides hydration for healthier and stronger skin.`NULL`dove bodywash body face hygiene beauty personal care
+156`18`Lady Speed Stick Antiperspirant Deodorant (2.3 Oz)`3.09`Freshness Morning to Night! Lady Speed Stick Power Antiperspirant Deodorant leverages fragrance encapsulation technology to provide a burst of freshness when you need it in addition to 24-hour protection against odor and wetness.`NULL`hygiene lady women beauty personal care speed stick deodorant
+157`18`Edge Sensitive Skin Shave Gel for Men with Aloe 7 Oz`4.85`Our blend of moisturizers and lubricants provides excellent razor glide with cooling conditioners that leave your face feeling refreshed.`NULL`gel shave sensitive edge hygiene beauty personal care
+158`18`Listerine Freshburst Antiseptic Mouthwash`4.05`Protect your mouth from germs and get fresh breath with Listerine Freshburst Antiseptic Mouthwash.`NULL`listerine mouthwash hygiene beauty personal care
+159`18`Irish Spring Original Body Wash (18 Fl Oz.)`3.00`Irish Spring's Original fresh scent and rich lathering formula leaves you feeling clean as a whistle.`NULL`soap irish spring body wash hygiene beauty personal care
+160`18`Sure Original Solid Anti Perspirant and Deodorant`2.25`Original Solid Regular Scent Antiperspirant Deodorant by Sure for Unisex - (2.7 Oz.) Deodorant.`NULL`sure deodorant original hygiene beauty personal care
+161`18`AXE Body Wash Kilo`4.95`A body wash for men with a refreshing fragrance to kick off or end your day.`NULL`axe body wash hygiene beauty personal care
+162`18`Suave Men 2 in 1 Hair and Body Wash (28 Oz.)`2.35`A dual-action shampoo and body wash — with just a hint of musk and sandalwood.`NULL`suave hair products body wash beauty personal care
+163`18`Dove Deep Moisture Body Wash (22 Fl Oz.)`6.95`Formula with nutrium moisture technology delivers skin natural nutrients and nourishes deep into the surface layers of the skin.`NULL`dove moisturize body wash hygiene beauty personal care
+164`20`Celestial Seasonings Sinus Soother`8.30`Celestial Seasoning sinus soother is made with soothing tulsi nettle; promotes respiratory comfort.`NULL`sinus soother celestial medicine health beauty personal care
+165`18`Playtex Simply Gentle Glide Unscented Tampons`6.00`Playtex 360° protection and incredible comfort with a unique two-layer and cross pad design that opens equally all around.`NULL`playtex tampons glide gentle hygiene beauty personal care
+166`18`Always Discreet Incontinence Bladder Liners`3.45`Thin and flexible design gives you discreet incontinence protection.`NULL`always discreet bladder liners hygiene beauty personal care
+167`19`Eco Styler Olive Oil Styling Hair Gel (16 Oz.)`2.98`Eco Professional Styling Gel Olive Oil helps you get the look that you want. It's suitable for use on all hair products types for added versatility.`NULL`ECO gel hair products olive oil styler beauty personal care
+168`25`e.l.f. Cosmetics Blending Sponge`6.20`Now Latex Free! The e.l.f. Cosmetics Blending Sponge flawlessly applies makeup for professionally even and smooth looking skin.`NULL`elf cosmetics blending sponge beauty personal care
+169`25`Make Up Eraser`15.4`Removes Your MakeUp with Just Water - 15 units.`NULL`makeup eraser cosmetic cosmetics beauty personal care
+170`20`Vaseline Lip Therapy`1.35`This Vaseline lip moisturizer gives lips a natural and glossy shine.`NULL`vaseline lip beauty personal care
+171`20`ChapStick Cherry Lip Balm`1.90`ChapStick helps prevent and heal dry chapped lips.`NULL`chapstick cherry lip balm beauty personal care
+172`25`Swisspers Premium Cotton Rounds`3.25`Patented stitched edge technology binds all layers together so pad doesn't separate during use.`NULL`swisspers cotton round beauty personal care
+173`20`Advil Pain Reliever/Fever Reducer Tablets - Ibuprofen (NSAID)`5.25`The medicine in Advil is #1 doctor recommended medicine that relieves minor aches and pains.`NULL`advil pain reliever fever tablets medicine health
+174`20`Vicks NyQuil and DayQuil SEVERE Cough`18.65`Vicks delivers maximum symptom-fighting ingredients to relieve your worst cold flu symptoms.`NULL`vicks nyquil dayquil cough medicine health
+175`20`Emergen-C Vitamin C 1000mg Powder`2.45`Emergen-C is a flavored vitamin mix made with natural fruit flavors for a delicious Super Orange taste.`NULL`vitamin emergen powder medicine health
+176`20`Alka-Seltzer Original Effervescent Tablets`3.50`Get fast relief of heartburn and acid indigestion with headache and body aches from this effervescent antacid pain reliever that has been around for more than 80 years.`NULL`alka-seltzer pain reliever health medicine beauty personal care
+177`20`HALLS Honey Lemon Flavor Menthol Drops`2.55`Triple soothing action. Soothes sore throats, relieves coughs, and cools nasal passages.`NULL`halls honey lemon menthol drops medicine health
+178`20`Tylenol Extra Strength Caplets with 500 mg Acetaminophen`2.35`Tylenol Extra Strength caplets help reduce fever and provide temporary relief of minor aches and pains.`NULL`medicine Tylenol caplets painkillers health
+179`20`Pepto Bismol Liquid`3.55`Pepto Bismol is the #1 Pharmacist Recommended Brand for Upset Stomachs.`NULL`pepto bismol medicine health
+180`20`Tylenol Cold Flu Severe`7.95`Tylenol Cold + Flu tackle your tough cold and flu symptoms by clearing congestion and quieting coughs. Tylenol also relieves head and body aches.`NULL`tylenol cold flu medicine health
+181`20`Clear Eyes Redness Relief Eye Drops`4.70`Clear Eyes Redness Relief Eye Drops relieve redness from minor irritations and protect against further irritations.`NULL`clear redness eyedrop drops eye health
+182`20`Vicks NyQuil Nighttime Cold Flu Symptom`9.15`Vicks delivers maximum symptom-fighting ingredients to relieve your worst cold flu symptoms.`NULL`medicine vicks nyquil cold nighttime cold flu health
+183`20`GoodSense Hydrogen Peroxide`1.10`An essential component of medicine cabinets and first aid kits.`NULL`goodsense hydrogen peroxide hygiene
+184`20`GoodSense Isopropyl Alcohol`1.85`An essential component of medicine cabinets and first aid kits.`NULL`goodsense alcohol hygiene
+185`18`Revlon Toenail Clipper`2.39`Revlon clippers have curved blades follow toenail shape for safe tri millimetersing and shaping.`NULL`revlon toenail clipper finger hygiene beauty personal care
+186`18`Q-Tips Cotton Swabs`1.65`Q-tips cotton swabs are the ultimate home and beauty tool. With the most soft cotton at the tip from the end of the stick to the top of the swab and a gently flexible stick.`NULL`q-tips cotton swab hygiene beauty personal care
+187`20`BAND-AID Waterproof Tough-Strips Bandages`4.05`BAND-AID is 100% Waterproof. With superstick adhesive to stay on longer. Up to 2X stronger than ordinary waterproof bandages.`NULL`bandage waterproof band-aid hygiene
+188`18`Reach Waxed Dental Floss`1.65`Reach Mint Waxed Dental Floss is Reaches number-one-selling floss. This mint floss is waxed to slide easily between teeth while it removes plaque and food particles.`NULL`reach waxed floss dental hygiene
+189`18`Colgate Toothbrushes Premier Extra Clean`1.05`Colgate Premier toothbrushes help maintain healthy gums without irritation.`NULL`toothbrush colgate hygiene
+190`18`Crest Cavity Protection Liquid Gel Toothpaste Cool Mint (8.2 Oz.)`1.45`Crest Cavity Protection Toothpaste gives you a cavity treatment that helps take care of your mouth by protecting your teeth and exposed roots.`NULL`toothpaste cavity crest hygiene
+191`18`Gillette Daisy Classic Women’s Disposable Razor`2.85`Gillette comfort razor blades are thin to glide for comfort.`NULL`gillette daisy razor women hygiene
+192`21`Kitsch Spiral Hair Ties`5.95`The spiral design of telephone cord hair ties spreads the pressure of the hair elastic out over a greater surface area of your hair.`NULL`kitsch spiral hair products ties
+193`18`Burt's Bees facial cleaning towelettes with white Tea Extract`4.95`Burt's Bees cleansing cloths contain no parabens or petrolatum.`NULL`burt bees facial hygiene beauty personal care
+194`18`Burt's Bees Fragrance Free Shea Body Butter Lotion`9.95`Hypoallergenic Burt's Bees Fragrance Free Shea Butter and Vitamin E Body Lotion nourishes all skin types.`NULL`burt bees fragrance shea butter lotion hygiene beauty personal care
+195`25`e.l.f. Highlighting Blending Sponge`6.00`e.l.f dual ended sculpting sponge that provides highlighting on one side and blending on the other.`NULL`elf cosmetic cosmetics highlight blending sponge beauty personal care
+196`25`e.l.f. Precision Concealer Sponge`6.00`The e.l.f. Cosmetics Precision Sponge Trio latex free material allows for a controlled use for flawless application and blending.`NULL`elf precision concealer cosmetic beauty personal care
+197`25`e.l.f. Powder Brush`12.00`Create flawless looking skin with help from the Studio Powder Brush from e.l.f. Cosmetics.`NULL`elf cosmetic cosmetics powder brush beauty personal care
+198`25`e.l.f. Foundation Brush`2.00`e.l.f's tapered bristles are designed to contour your face for a flawless finish.`NULL`elf foundation brush cosmetic cosmetics beauty personal care
+199`25`e.l.f. Concealer Brush`1.00`The unique rounded shape allows you to contour and cover areas easily. Create buildable coverage from light to heavy for a customizable look that is smooth and flawless.`NULL`elf cosmetic concealer brush beauty personal care
+200`25`e.l.f. Luminous Matte Makeup Primer`8.00`This makeup base primes the skin for long wear. It also helps moisturize and brighten skin appearance.`NULL`elf cosmetic cosmetics makeup luminous matte beauty personal care
+201`25`e.l.f. Prime and Stay Finishing Powder`2.00`Erase fine lines and have a shine free complexion every day! The translucent powder in this compact is great for setting foundation or a quick midday touch up.`NULL`elf cosmetic prime powder stay beauty personal care
+202`25`e.l.f. Lock On Liner Brow Cream Light Brown`4.00`This eyebrow pomade glides on smoothly to sculpt and define brows.`NULL`elf cosmetic lock liner cosmetic cosmetics brow cream light brown beauty personal care
+203`25`e.l.f. Lock On Liner Brow Cream Espresso`4.00`This eyebrow pomade glides on smoothly to sculpt and define brows.`NULL`elf cosmetic cosmetics lock liner expresso brow cream beauty personal care
+204`25`e.l.f. Cosmetics Shape and Stay Clear Wax Pencil`2.00`This clear wax pencil helps shape and tame brows for a flawless look that stays put.`NULL`elf cosmetic cosmetics shape stay clear wax pencil beauty personal care
+205`25`e.l.f. Instant Lift Brow Pencil`2.00`Dual-sided brow pencil that creates natural and polished brows.`NULL`elf cosmetic cosmetics brow pencil makeup cosmetics beauty personal care
+
+206`31`Tide To Go Instant Stain Remover Liquid Pen`4.15`Tide To Go helps remove some of the toughest fresh food and drink stains.`NULL`tide stain pen liquid remover household essentials cleaners
+207`31`Bounce Fabric Softener Dryer Sheets`4.35`Classic Bounce outdoor fresh scent that helps reduce wrinkles.`NULL`bounce fabric softener dryer sheets laundry household essentials
+208`28`Shout Triple-Acting Stain Remover Spray (22 fl Oz.)`4.85`Shout Triple-Acting Stain Remover Spray's stain-fighting ingredients and enzymes quickly penetrates and breaks up and remove tough stains.`NULL`shout triple-acting stain remover spray cleaners household essentials
+209`31`Tide PODS Liquid Laundry Detergent Pacs`6.25`Tide PODS laundry detergent pacs offer a surprisingly powerful clean in 1 step.`NULL`tide podes laundry detergent household essentials
+210`30`Sharpty White Plastic Hangers 20 pack`9.99`No more messy piles of clothing in your cabinet! SHARPTY PLASTIC HANGERS feature a super slim design to help you maximize your closet space while making it tidy and organized!`NULL`white plastic hangers household essentials
+211`31`Easy-On Speed Starch Fabric Care Spray Crisp Linen`3.50`Easy-On Speed Starch makes ironing easy! Easy On Speed Starch fabric care spray is safe for most textiles.`NULL`easy-on speed startch fabric spray laundry crisp linen household essentials
+212`31`Scotch-Brite Lint Roller`2.75`Scotch-Brite Lint Roller tears cleanly down to the last sheet and picks up just about anything.`NULL`scotch brite lint roller household essentials
+213`29`Angel Soft Toilet Paper`4.95`Angel Soft toilet paper is designed with softness and strength at a price that won't break the bank.`NULL`angel soft toilet paper bathroom tissue household essentials
+214`30`Sewing Kit`1.55`This is a small portable sewing kit with basic notions.`NULL`sewing kit needle patch kit thread household essentials cleaners
+215`28`Cedar Scrub Brush`3.20`This uniquely designed kitchen brush helps rinse the angled bristles clean of dish and glass debris.`NULL`cedar scrub brush sponge dishes household essentials
+216`29`Scott Standard 1-Ply Toilet Paper Rolls`1.50`Scott single ply toilet paper provides home-like comfort at your place of business.`NULL`scott toilet toiletpaper paper bathroom tissue household essentials cleaners
+217`30`Mason Jar Sewing Kit`7.70`Kikkerland unscrewable pin cushion lid contains a complete sewing kit on the inside.`NULL`sew sewing kit patch needle thread household essentials
+218`28`POM Paper Towels`0.99`POM's popular 2-ply perforated roll towels offer reliable performance for everyday cleaning and wiping tasks.`NULL`pom paper towels towel napkin household essentials
+219`28`Clorox Disinfecting Wipes`1.85`Clorox Disinfecting Wipes is an all-purpose wipe that cleans and disinfects with antibacterial power killing 99.9% of viruses and bacteria.`NULL`clorox wipes cleaner cleaners household essentials
+220`30`Renuzit Air Freshner - Pure Breeze`2.50`Keep your home smelling fresh with Renuzit Pearls. Great for continuous freshness in your home.`NULL`renuzit air freshner spray scent household essentials
+221`28`Scotch-Brite Scrub Dots`1.00`Eliminate the toughest baked on messes with a scrub sponge that scrubs fast and stays clean. The innovative scrub dots cut through messes and rinses clean.`NULL`scotch brite cleaners cleaner sponge dot household essentials
+222`28`Joy Lemon Scent Dishwashing Soap`2.05`Dishwashing liquid that's powerful. A little goes a long way.`NULL`joy liquid wash lemon dishwashing washing soap household essentials cleaners
+223`29`Purell Hand Sanitizer`1.70`Kills the most germs—Just 1 squirt of PURELL Advanced Hand Sanitizer kills as many germs as 2 squirts of any other national brand.`NULL`purell hand sanitizer soap household essentials
+224`28`Windex Original Glass Cleaner Trigger (23 fl Oz.)`3.70`Give Life a Sparkle with Windex cleaners!Windex starts working on smudges and smears even before you wipe.`NULL`windex original cleaner cleaners household essentials
+225`30`Baumgartens Ear Plug`1.95`Earplugs block out noises that could be harmful and have long-lasting effects.`NULL`Baumgartens ear plug
+226`28`Mr. Clean Magic Eraser`3.70`Mr. Clean Magic Eraser has a strong cleaning performance, it can remove your home’s toughest messes like magic.`NULL`mr clean magic eraser household essentials cleaners
+227`30`Glad Tall Kitchen Bags`4.25`Glad 13 Gallon trash bags support an active kitchen and provide a versatile plastic bag to tackle any household or office chore.`NULL`glad kitchen bags garbage trash bag household essentials
+228`18`Geary's Intelligence Red Hair Dye`19.72`Increase your knowledge in critical thinking by revamping your hair with the vivacious color, Geary red.`NULL`hair dye red Geary beauty personal care
+229`30`Reynolds Wrap Standard Aluminum Foil`2.35`Reynolds Wrap Standard Aluminum Foil has the trusted strength and quality you can count on for cooking delicious meals with easy cleanup.`NULL`reynolds wrap alumnium foil household essentials
+230`30`Paper Sandwich Bags`2.55`Reynolds Kitchen Wax Paper Sandwich Bags give you the food storage solution you need in a product that you can feel good about using.`NULL`paper sandwich bags household essentials
+231`30`Bubba Classic Insulated Travel Mug`10.95`Keeps hot beverages hot and cold beverages cold for hours with no sweating thanks to dual-wall foam insulation.`NULL`bubba travel mug cup household essentials
+232`30`Designworks Ink ID Keychain Gold`9.25`Designworks Ink stationery products speak to the personality of each writer.`NULL`designworks ink id keychain household essentials
+233`30`Digital Luggage Scale`9.25`No more over-weight luggage fees at the airport! This luggage scale allows you to properly weigh your luggage before you get to the airport.`NULL`digital luggage scale electronics
+234`30`Travelon Set of 2 Luggage Tags`3.10`Who says luggage tags have to be boring. Brighten up your black bag with these fun tags from Travelon.`NULL`travelon luggage tag nametag tags
+235`31`Tera Grand Sync Charge Micro USB Cable With Aluminum Housing`6.10`HIGHLY COMPATIBLE - Compatible with most Android and Windows phones and many other devices with a Micro USB Port.`NULL`tera grand charger cable aluminum household essentials electronics
+236`31`Cotton Braided Charging Cable`12.95`This is one phone charging cord you won't want to hide away.`NULL`cotton braided charging cable household essentials electronics
+237`31`Tera Grand Sync Charge Micro USB Cable Dual Reversible`5.55`2-in-1 USB Cable with both Micro USB and Lightning Connectors Apple MFi certified Lightning adapter.`NULL`tera grand charge micro usb cable reversible household essentials electronics
+238`31`Happy Plugs Earbuds`29.25`Happy Plugs Earbuds are perfect as an everyday accessory to be mixed and matched with your outfit of the day.`NULL`happy plug earbud noise household essentials electronics
+239`31`Maxell Color Buds Earbuds with Mic Black`4.75`The Maxell color buds with mic are a comfortable and lightweight design that has a dynamic sound reproduction from all sources.`NULL`maxell color bud earbuds earphone household essentials electronics
+240`31`Pop Charger Emergency Charger`5.99`Pop Charger Pre-Charged Disposable Emergency Charger compatible with Android.`NULL`pop charger electronics
+241`31`SportFit Wireless High Fidelity Earbuds`16.35`HD sound with deep bass clear audio; Winged tips keep earbuds in place through high-intensity workouts.`NULL`sportfit earbuds wireless earphones electronics
+242`31`Kikkerland Felt Safe Slot`5.75`This universal mobile phone case offers space for up to 3 cards.`NULL`kikerland felt safe case
+243`31`Kikkerland Fold Out Tech Pocket`6.15`Your essential "to go" wallet with flex band attaches to any phone or tablet.`NULL`kikerland fold out pocket wallet
+244`31`Thread Wallets iPhone X Phone Case`23.65`This Thread Wallets credit card holder is a slim phone case wallet. Conveniently carry your essentials in one hand while maintaining a slim profile.`NULL`thread wallet phone cardholder iphone
+245`31`Thread Wallets iPhone 6+/6s+/7+/8+ Phone Case`25.95`This Thread Wallets credit card holder is a slim phone case wallet. Conveniently carry your essentials in one hand while maintaining a slim profile.`NULL`thread wallet phone cardholder iphone
+246`31`Power Pad Wireless Charger`29.95`Case Mate unique phone shaped design allows full use while charging in stand or using lay flat pad.`NULL`case mate wireless charger electronics
+247`31`Kikkerland 3-in-1 Cable`6.20`Charge any of your devices with the interchangeable built-in Micro USB/USB-C and Lightning connectors.`NULL`kikkerland cable charger usb electronics
+248`31`Kikkerland Charge and Listen`3.10`Kirkkerland 2 in 1 design split lightning port allows you to charge your phone while using your headphones. iPhone 7 and up compatible.`NULL`kikkerland charge dual electronics
+249`31`Emergency Tech Kit`5.50`Emergency Tech Kit allows you to clean and organize your tech supplies while on the go!`NULL`emergency kit case electronics
+250`31`Phone Mirror`7.75`This mirror adheres tightly to all devices and cases. It is also easy to apply and remove.`NULL`phone mirror
+251`31`PopSockets American Flag`7.75`A PopSockets grip is more than a stylish phone accessory. It’s an opposable thumb for your phone.`NULL`popsockets flag phone
+252`31`PopSockets Black`7.75`A PopSockets grip is more than a stylish phone accessory. It’s an opposable thumb for your phone.`NULL`popsockets black
+253`31`Slant Enamel Phone Ring`6.20`This phone ring allows you to easily handle your phone or use it hands-free. The phone ring attaches quickly to the back of your phone`NULL`phone ring enamel slant
+254`31`Tera Grand 3.1A Dual Port USB Wall Charger`7.65`Tera Grand dual wall charger allows you to charge up to two devices.`NULL`tera grand usb dual charger phone electronics
+255`31`Tera Grand Mobile Power Bank`15.60`Unrivaled power in a small package. The ideal travel item that provides the power you need to stay charged while on the go.`NULL`tera grand mobile power charger portable battery electronics
+
+256`32`Pensacola Christian Short Sleeve By Champion`13.25`100% Cotton tee with 'Eagles Mascot' on the front. One size fits all.`Oxford`pensacola christian shirt champion teeshirt pullover clothes shirts eagle gear
+257`32`Eagles Sweatshirt`28.95`Sweatshirt with the word 'Eagles' on the front. One size fits all.`Gray`pensacola christian shirt sweatshirt eagles pullover clothes shirts eagle gear
+258`32`Pensacola Christian Eagles Hoodie By Champion`28.50`Hoodie with 'Pensacola Christian Eagles' on the front. One size fits all.`Royal Blue`pensacola christian eagles champion jacket hoodie clothes hoodies eagle gear
+259`32`Eagles Long Sleeve Mens Tech Tshirt By Under Armour`27.55`Long sleeve t-shirt with 'Eagles Mascot' on the front and slightly longer back. One size fits all.`Royal Blue`pensacola christian shirt shirts long sleeve under amrour teeshirt pullover clothes eagle gear
+260`32`Pensacola Christian Hoodie By Under Armour`48.00`Hoodie with 'Pensacola Christian' on front. One size fits all.`Athletic Heather`pensacola christian hoodie jacket under armour clothes hoodies eagle gear
+261`32`Pensacola Christian Long Sleeve By Champion`17.25`Long Sleeve with 'Pensacola Christian' on the front. One size fits all.`White`pensacola christian shirt champion teeshirt pullover longsleeve clothes shirts eagle gear
+262`32`Womens Eagles By Champion`13.95`Women's Royal Blue tee with Eagles on front. One size fits all.`Royal Blue`eagles shirt champion teeshirt pullover clothes shirts eagle gear
+263`32`Black Eagles Mascot Packable Jacket`30.50`Black hooded jacket with 'Pensacola Christian College' printed on the sleeves. One size fits all.`Black`pensacola christian jacket eagles rain clothes hoodies eagle gear
+264`32`Womens Pensacola Christian Eagles 1974 By Champion`20.80`Womens tee shirt with 'Pensacola Christian Eagles 1974' on the front. One size fits all.`Pale Blush`pensacola christian shirt shirts champion eagles pullover women clothes eagle gear
+265`32`Polo Eagles Mascot By Under Armour`36.00`Heatgear Fabric with 'Eagles Pensacola Christian College' and the Eagle mascot positioned on the front. One size fits all.`Royal Blue`pensacola christian polo under armour shirt clothes eagle gear
+266`32`Womens Adjustable PCC Eagles Hat`27.35`Neon Pink Hat with embroidered 'PCC Eagles' on the front by Under Armour. One size fits all.`Neon Pink`pensacola christian pcc hat women hats eagle gear
+267`32`Polo Performance Stripe Pensacola Christian College Eagles By Under Armour`49.95`Polo Stripe with 'Eagles Pensacola Christian College' on the front. One size fits all.`Midnight`pensacola christian shirt under armour polo clothes shirts eagle gear
+268`32`Polo Pensacola Christian College Eagles By Under Armour`38.50`Gray polo with 'Pensacola Christian College Eagles' Embroidered in navy on the front. One size fits all.`Graphite`pensacola christian shirt under armour polo clothes shirts eagle gear
+269`32`Adjustable Eagle Mascot Hat By Under Armour`21.15`Adjustable hat with PCC eagles mascot on the front and 'Pensacola Christian' embroidered on the back. One size fits all.`Graphite`pensacola christian eagles hat hats under armour eagle gear
+270`32`Adjustable PCC Eagle Hat By Champion`16.20`Adjustable hat with PCC Eagles mascot on the front.`Royal Blue`pcc eagles hat champion hats eagle gear
+271`33`License Plate Frame Alumni`16.30`A metal 'Pensacola Christian College Alumni' license plate frame.`NULL`alumni license plate frame car metal pensacola accessories eagle gear
+272`33`Mug Pensacola Christian College Alumni Medallion`13.95`Navy blue ceramic with 'Pensacola Christian College' in white and a medallion with 'alumni'.`Navy`mug cup alumni pensacola christian accessories eagle gear
+273`33`Keychain Pensacola Christian College Alumni`6.50`Metal 'Pensacola Christian Eagles Alumni' keychain in royal blue.`Royal Blue`keychain alumni pensacola christian accessories eagle gear
+274`33`Plastic Tumbler Pensacola Christian College Eagles'.`13.95`Plastic Tumbler perfect for keeping any drink cool on the go.`Blue`plastic tumbler eagles pensacola christian cup accessories eagle gear
+275`33`Mug Pensacola Christian College Graduation Cap Medallion`13.95`Navy blue ceramic mug with 'Pensacola Christian College' in white and a medallion with a graduation cap.`Navy` cup mug graduation accessories pensacola christian eagle gear
+276`33`Pensacola Christian College Eagles Plastic Cup`3.75`Plastic cup with 'Pensacola Christian College eagles' and the school eagle head in white on the front.`Royal Blue`cup plastic pensacola christian eagles accessories eagle gear
+277`33`Keychain Pensacola Christian College Seal`6.50`Metal keychain of the Pensacola Christian College seal in royal blue.`Royal Blue`keychain pensacola christian seal chain accessories eagle gear
+278`33`Id Card Lanyard Pensacola Christian College`6.75`Royal blue cloth lanyard with 'Pensacola Christian College' in white with a plastic card holder.`Royal Blue`card lanyard id pensacola christian accessories eagle gear
+279`33`Keychain Eagle Head`6.95`Metal eagle head keychain.`NULL`keychain eagle head accessories eagle gear
+280`33`10 inch Eagles Stuffed Animal with a PCC Eagles T-Shirt`8.25`PCC Stuffed animal eagle with blue Pensacola Christian College Eagles t-shirt.`NULL`animal stuffed egor eagle pensacola christian accessories eagle gear
+281`33`Decal Pensacola Christian College Eagles Glitter`6.15`A sparkly decal that says Pensacola Christian College Eagles with the eagle head logo made of high performance indoor/outdoor vinyl.`NULL`pensacola christian decal glitter logo eagles accessories eagle gear

@@ -1,0 +1,39 @@
+#productTxt{
+    font-size: 20px;
+    text-align: left;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+#productTxt:hover{
+    color: #F7882F;
+    text-decoration: underline;
+}
+
+#wishlistTitle{
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#wishlistSheet{
+    position: relative;
+    padding-bottom: 200px;
+}
+
+#sheetListWishlist{
+    min-height: 400px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+#wishlistPrice{
+    font-weight: bold;
+    font-size: 20px;
+    color: #C91111;
+    font-family: Arial;
+    padding-top: 10px !important;
+}

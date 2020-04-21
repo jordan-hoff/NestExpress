@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+    <changeSet id="db.changelog-2.0" author="Stephen Thomas">
+
+    <dropColumn tableName="product" columnName="product_name"/>
+
+    <addColumn tableName="product">
+        <column name="product_name" type="varchar(255)">
+            <constraints nullable="false"/>
+        </column>
+        <column name="color" type="varchar(35)">
+            <constraints nullable="true"/>
+        </column>
+    </addColumn>
+
+    <loadData encoding="UTF-8" file="data/product-data.csv" separator="," relativeToChangelogFile="true" tableName="PRODUCT">
+        <column name="p_id"/>
+        <column name="category"/>
+        <column name="product_name"/>
+        <column name="price"/>
+        <column name="descript"/>
+        <column name="color"/>
+    </loadData>
+
+    <rollback>
+        <dropColumn tableName="product" columnName="color"/>
+    </rollback>
+
+    </changeSet>
+	    <changeSet id="tag-2.0" author="Stephen Thomas">
+		    <tagDatabase tag="2.0" />
+	</changeSet>
+</databaseChangeLog>

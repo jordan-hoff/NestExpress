@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="db.changelog-5.0" author="Jordan Hoff">
+        <createTable tableName="dorm">
+            <column name="dorm_id" type="int(2)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="dorm_name" type="varchar(18)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="num_floors" type="int(4)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="max_room" type="int(4)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <rollback>
+            <dropTable tableName="dorm"/>
+        </rollback>
+    </changeSet>
+    <changeSet id="tag-5.0" author="Jordan Hoff">
+        <tagDatabase tag="5.0"/>
+    </changeSet>
+</databaseChangeLog>

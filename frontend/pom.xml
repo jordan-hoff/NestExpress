@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>frontend</artifactId>
+	<packaging>jar</packaging>
+
+    <parent>
+        <groupId>project.sei-persevere</groupId>
+        <artifactId>spring-boot-vuejs</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<bootstrap.version>4.1.0</bootstrap.version>
+        <frontend-maven-plugin.version>1.8.0</frontend-maven-plugin.version>
+        <bootstrap-datapicker.version>1.7.1</bootstrap-datapicker.version>
+	</properties>
+
+	<dependencies>
+		<!--Bootstrap-->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>${bootstrap.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap-datepicker</artifactId>
+			<version>${bootstrap-datapicker.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+            <!--NPM version control-->
+            <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <version>${frontend-maven-plugin.version}</version>
+
+                <executions>
+                    <!-- Install our node and npm version to run npm/node scripts-->
+                   <execution>
+                        <id>install node and npm</id>
+                        <goals>
+                            <goal>install-node-and-npm</goal>
+                        </goals>
+                        <configuration>
+                            <nodeVersion>v9.11.1</nodeVersion>
+                        </configuration>
+                    </execution>
+
+                    <!-- Install all project dependencies -->
+                    <execution>
+                        <id>npm install</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <phase>generate-resources</phase>
+                        <configuration>
+                            <skip>${env.skipFrontEnd}</skip>
+                            <arguments>install</arguments>
+                        </configuration>
+                    </execution>
+
+                    <!-- Build and minify static files -->
+                    <execution>
+                        <id>npm run build</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <skip>${env.skipFrontEnd}</skip>
+                            <arguments>run build</arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+		</plugins>
+	</build>
+
+</project>

@@ -1,0 +1,43 @@
+.paymentSummary {
+    font-size: 20px;
+    color: black !important;
+    font-family: Century Gothic;
+    text-align: right;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #F7882F;
+    text-decoration-line: underline;
+}
+
+#totalTitle{
+    font-family: Century Gothic;
+    font-size: 25px;
+}
+
+#orderDiv{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 50%;
+    top: 50%;
+}
+
+#orderTotalPrice{
+    font-family: Century Gothic;
+    font-size: 22px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#divCheckoutButton{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}

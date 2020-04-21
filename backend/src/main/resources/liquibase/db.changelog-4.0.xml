@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="db.changelog-4.0" author="Stephen Thomas">
+        <addColumn tableName="user">
+            <column name="f_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="l_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+        </addColumn>
+
+        <rollback>
+            <dropColumn tableName="user" columnName="fname"/>
+            <dropColumn tableName="user" columnName="lname"/>
+        </rollback>
+    </changeSet>
+	    <changeSet id="tag-4.0" author="Stephen Thomas">
+		    <tagDatabase tag="4.0" />
+	</changeSet>
+</databaseChangeLog>

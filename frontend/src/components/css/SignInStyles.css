@@ -1,0 +1,120 @@
+#appBackground {
+    background-image: url(https://drive.google.com/uc?id=17iRcDJ3yZDgMBJ92Dxa5hjAo7ZCoJG9r);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #signInContainer {
+    margin: auto;
+    width: 450px;
+    transform: scale(1.20);
+  }
+
+h1{
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* Welcome title */
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#signInTitle {
+    color: #F77810;
+    font-size: 25px;
+    font-family:'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+#validationMessage {
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+  #btnSignIn {
+    color: white;
+    font-size: 20px;
+    font-family:'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  #spanWelcomeTxt{
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  /* Sign in card */
+#signInCard {
+    padding: 15px;
+    border-radius: 0%;
+}
+
+  /* Resizes the text boxes sizes */
+#userInputBoxes{
+    margin-top: -5px;
+}
+
+  /* Edit Sign up link when hovered over */
+#createNewAccountText:hover {
+    color:#F7882F;
+    font-weight: 500;
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+/* Edit Sign up link before hover */
+#createNewAccountText{
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+  /* New customer text */
+  #newCustomerText{
+    font-weight: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12pt;
+    color :black;
+
+  }
+
+  #errorUsername {
+    color: red;
+    font-size: 12pt;
+    padding-bottom: 5px;
+    text-align: left;
+    bottom: 290px;
+  }
+
+  #errorPassword {
+    color: red;
+    font-size: 12pt;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-top: -15px;
+    bottom: 341px;
+  }
+
+  /* Home text */
+  #nestExpressText {
+    color: white;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #signInLogo:hover {
+    cursor: pointer;
+  }

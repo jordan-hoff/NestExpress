@@ -1,0 +1,261 @@
+.categoryShopping {
+    width: 190px;
+    height: 190px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 10px 30px 50px 30px;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 15;
+    text-transform: none;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+}
+
+.categoryShopping:hover {
+    background: #F7882F !important;
+}
+
+#advertisementSlides{
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+#shopCategory{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40px;
+}
+
+#eagleGearPrice{
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 1px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    background: #F7882F;
+    color: white;
+}
+
+#featuredPrice{
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 1px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    background: #F7882F;
+    color: white;
+}
+
+#homePage {
+    background: #EEEEEE;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#carouselContainer {
+  height: auto;
+}
+
+#homeAd1 {
+    display: inline-block;
+    margin-bottom: 55px;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Categories Navigation Bar Styles */
+.main-nav{
+    display: none;
+}
+
+.active {
+    display: block;
+  }
+
+  .navbar-toggle{
+      cursor: pointer;
+  }
+
+.listItemTitle:hover {
+      font-weight: 435;
+      text-decoration: none;
+      color:  #F7882F;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+  .navCatBtn {
+      padding: auto;
+      width: 245px;
+      height: 100%;
+      color: white;
+      font-size: 15px;
+      background-color: #F7882F !important;
+  }
+
+  .navCatBtn:hover {
+      background-color: #F7882F !important;
+  }
+
+  #catNavContainer {
+      padding: auto;
+      text-align: center;
+      background: #F7882F;
+      text-align: center;
+      color: black;
+      font-size: 15px;
+      width: 100%;
+      border-radius: 0%;
+  }
+
+  .catNavRow {
+      font-weight: normal;
+      text-align: center;
+      font-size: 15px;
+      text-decoration: none;
+      padding: 0px 10px 0px 10px;
+  }
+
+  #navigation-icon{
+      padding: 10px 10px 20px;
+      margin-right: 10px;
+      cursor: pointer;
+  }
+
+  /* Mobile View */
+@media screen and (min-width: 1420px) {
+    .main-nav{
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .active {
+        display: none;
+      }
+
+    .navbar-toggle{
+        display: none;
+    }
+
+    .listItemTitle:hover {
+        font-weight: 435;
+        text-decoration: none;
+        color:  #F7882F;
+      }
+
+    .navCatBtn {
+        padding: auto;
+        width: 245px;
+        height: 100%;
+        color: white;
+        font-size: 15px;
+        background-color: #F7882F !important;
+    }
+
+    .navCatBtn:hover {
+        background-color: #F7882F !important;
+    }
+
+    #catNavContainer {
+        padding: auto;
+        text-align: center;
+        background: #F7882F;
+        color: black;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 0%;
+    }
+
+      .catNavRow {
+          font-weight: normal;
+          text-align: center;
+          font-size: 15px;
+          text-decoration: none;
+          padding: 0px 10px 0px 10px;
+      }
+  }
+
+.active {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+
+/* Carousel styles */
+#carousel {
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+#carouselCard {
+display: inline-block;
+width: 100%;
+}
+
+/* Featured Items & Eagles Gear Styles */
+.productsHeading {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+#homeItems {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    float: center;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    margin: auto;
+}
+
+#featuredItemName {
+    font-size: 15px;
+    font-family: 'Century Gothic', 'Segoe UI', Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 1000;
+}
+
+#featuredItemCard {
+    background-color: rgba(185, 181, 181, 0.979) !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+    background: white !important;
+}

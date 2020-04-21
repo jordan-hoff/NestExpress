@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+		<changeSet id="db.changelog-1.0" author="Stephen Thomas">
+        <createTable tableName="user">
+          <column name="u_id" type="int(8)">
+            <constraints primaryKey="true" nullable="false"/>
+          </column>
+          <column name="username" type="varchar(14)">
+            <constraints nullable="false"/>
+          </column>
+          <column name="password" type="varchar(14)">
+            <constraints nullable="false"/>
+          </column>
+          <column name="room_number" type="int(8)">
+            <constraints nullable="true"/>
+          </column>
+          <column name="dorm" type="varchar(16)">
+            <constraints nullable="true"/>
+          </column>
+          <column name="balance" type="double(5, 3)">
+            <constraints nullable="true"/>
+          </column>
+        </createTable>
+
+        <createTable tableName="orders">
+          <column name="o_id" type="int(8)">
+            <constraints primaryKey="true" nullable="false"/>
+          </column>
+          <column name="u_id" type="int(8)">
+            <constraints nullable="false" foreignKeyName="fk_user_id" references="[user](u_id)"/>
+          </column>
+          <column name="is_ordered" type="bit" defaultValueBoolean="0">
+            <constraints nullable="false"/>
+          </column>
+        </createTable>
+
+        <createTable tableName="product">
+          <column name="p_id" type="int(8)">
+            <constraints primaryKey="true" nullable="false"/>
+          </column>
+          <column name="product_name" type="varchar(55)">
+            <constraints nullable="false"/>
+          </column>
+          <column name="price" type="double(4,3)">
+            <constraints nullable="false"/>
+          </column>
+          <column name="category" type="int(5)">
+            <constraints nullable="false"/>
+          </column>
+          <column name="descript" type="varchar(5000)">
+            <constraints nullable="true"/>
+          </column>
+        </createTable>
+
+        <createTable tableName="order_items">
+          <column name="oi_id" type="int(8)">
+            <constraints primaryKey="true" nullable="false"/>
+          </column>
+          <column name="p_id" type="int(8)">
+            <constraints nullable="false" foreignKeyName="fk_product_id" references="[product](p_id)"/>
+          </column>
+          <column name="o_id" type="int(8)">
+            <constraints nullable="false" foreignKeyName="fk_order_id" references="[orders](o_id)"/>
+          </column>
+          <column name="quantity" type="int(5)">
+            <constraints nullable="false"/>
+          </column>
+        </createTable>
+
+        <createTable tableName="promo">
+          <column name="pr_id" type="int(8)">
+            <constraints primaryKey="true" nullable="false"/>
+          </column>
+          <column name="p_id" type="int(8)">
+            <constraints nullable="false" foreignKeyName="fk_promo_product_id" references="[product](p_id)"/>
+          </column>
+          <column name="code" type="varchar(15)">
+            <constraints nullable="false"/>
+          </column>
+          <column name="discount" type="double(4,4)">
+            <constraints nullable="false"/>
+          </column>
+        </createTable>
+      </changeSet>
+		<changeSet id="tag-1.0" author="Stephen Thomas">
+		 	<tagDatabase tag="1.0" />
+	  </changeSet>
+</databaseChangeLog>

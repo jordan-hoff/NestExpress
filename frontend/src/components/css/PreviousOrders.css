@@ -1,0 +1,92 @@
+.deliveryDetails {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: gray;
+}
+
+.deliveryDetailsHeadings {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial;
+}
+
+#viewItemsButton {
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    text-transform: none;
+    font-weight: thin;
+}
+
+#orderDate {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial;
+}
+
+#ordersList {
+    min-height: 400px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+#ordersSheet {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#previousOrdersHeading {
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#viewItemsDialogHeading {
+    text-align: center;
+    padding: 15px 0px 15px 15px;
+    font-size: 20px;
+    font-family: Arial;
+    background: #0056B6;
+    color: white;
+    word-wrap: break-word;
+}
+
+#viewItemsDialogCard {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#productName {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    overflow: auto;
+    max-height: 70px;
+    color: black;
+    text-decoration: none;
+}
+
+#productPrice {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #D03030;
+}
+
+#productQty{
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    font-family: Arial;
+}

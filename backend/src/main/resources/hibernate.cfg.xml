@@ -1,0 +1,33 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="connection.url">jdbc:sqlserver://localhost:1433;databaseName=SEI_Persevere</property>
+        <property name="connection.username">SA</property>
+        <property name="connection.password">SEI_Persevere2019!</property>
+        <!-- JDBC connection pool settings ... using built-in test pool -->
+        <!--<property name="connection.pool_size">10</property> -->
+        <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <!-- Echo the SQL to stdout -->
+        <property name="show_sql">false</property>
+        <!-- Set the current session context -->
+        <property name="current_session_context_class">thread</property>
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- Hikari connection pool -->
+        <property name="hibernate.hikari.dataSource.url" >jdbc:sqlserver://localhost:1433;databaseName=SEI_Persevere</property>
+        <property name="hibernate.hikari.dataSource.user">SA</property>
+        <property name="hibernate.hikari.maximumPoolSize">100</property>
+        <property name="hibernate.hikari.idleTimeout" >30000</property>
+        <property name="hibernate.hikari.dataSource.cachePrepStmts">true</property>
+        <property name="hibernate.hikari.dataSource.prepStmtCacheSize">250</property>
+        <property name="hibernate.hikari.dataSource.prepStmtCacheSqlLimit">2048</property>
+        <property name="hibernate.hikari.dataSource.useServerPrepStmts">true</property>
+        <property name="hibernate.connection.provider_class">org.hibernate.hikaricp.internal.HikariCPConnectionProvider</property>
+        <property name="hibernate.hikari.connectionTimeout">1000</property>
+
+    </session-factory>
+</hibernate-configuration>

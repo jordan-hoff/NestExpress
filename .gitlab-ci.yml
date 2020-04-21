@@ -1,0 +1,51 @@
+image: maven:3-jdk-8
+
+stages:
+   - test
+   - build
+   - master_build
+   - special_build
+
+test:
+   stage: test
+   except:
+      - master
+      - /^*.-testing$/
+      - /^*.-test$/
+   script:
+      - echo test are not working
+
+build:
+   stage: build
+   except:
+      - master
+      - /^*.-testing$/
+      - /^*.-test$/
+   script:
+      - echo "Building Project"
+      - mvn install -DskipTests=true -Denv.skipDeploy=true -Denv.product_build=jar -Denv.skipFrontEnd=true -Dliquibase.should.run=false -B
+   allow_failure: true
+
+master_build:
+   stage: master_build
+   tags:
+      - master
+   only:
+      - master
+   script:
+      - echo "Master - Maven build started"
+      - mvn install -DskipTests=true -Denv.skipDeploy=true -Denv.product_build=jar -Dliquibase.should.run=false -Denv.skipFrontEnd=true -B
+   when: manual
+   allow_failure: true
+
+special_build:
+   stage: special_build
+   only:
+      - /^*.-testing$/
+      - /^*.-test$/
+   tags:
+      - special
+   script:
+      - echo "Master - Maven build started"
+      - mvn install -DskipTests=true -Denv.skipDeploy=true -Denv.product_build=jar -Denv.skipFrontEnd=true -Dliquibase.should.run=false -B
+   when: manual

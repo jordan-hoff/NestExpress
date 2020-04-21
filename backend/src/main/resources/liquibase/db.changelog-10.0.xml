@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="db.changelog-10.0" author="Stephen Thomas">
+
+        <createTable tableName="wishlist">
+          <column name="w_id" type="int(8)">
+            <constraints primaryKey="true" nullable="false"/>
+          </column>
+          <column name="p_id" type="int(8)">
+            <constraints nullable="false" foreignKeyName="fk_w_p_id" references="[product](p_id)"/>
+          </column>
+          <column name="u_id" type="int(8)">
+            <constraints nullable="false" foreignKeyName="fk_w_u_id" references="[user](u_id)"/>
+          </column>
+        </createTable>
+
+    </changeSet>
+    <changeSet id="tag-10.0" author="Stephen Thomas">
+        <tagDatabase tag="10.0"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,199 @@
+#checkoutBody{
+    background-image: url(https://drive.google.com/uc?id=13zRn8BPdvonQhJ8w8AISfwrFI9WV5ZqX);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#header{
+    margin-top: -10px;
+    height: 57px;
+}
+
+#checkoutCard{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-width: thin;
+}
+
+#checkoutTitle{
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: thin;
+    text-align: left;
+    font-size: 35px;
+}
+
+#deliveryTypeTxt{
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#deliveryInfoTitle{
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #E77F2C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#cardErrorMsg{
+    color: red;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#paymentInfoTitle{
+    font-family: 'Century Gothic', Arial;
+    text-align: left;
+    color: #E77F2C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#balanceText {
+    font-size: 25px;
+    color: black;
+    height: 100%;
+    margin: auto;
+}
+
+#balanceAmount {
+    font-size: 30px;
+    color:#F7882F;
+    font-weight: bold;
+    margin: auto;
+}
+
+#addFundsBtn {
+    background: #F7882F;
+    color: white;
+    margin: auto;
+    height: 50px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 20px;
+}
+
+#acctBalance{
+    text-align: left;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+#addFundsTitle{
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #E77F2C;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#btnAddFunds{
+    background: white;
+    color: #E77F2C;
+    border-style: solid;
+    border-color: #E77F2C;
+}
+
+.dialogCloseBtn {
+    margin-right: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.dialogCloseBtn:hover {
+    background: red;
+    color: white;
+}
+
+/* Coupon Styles */
+#applyCouponTxt{
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #E77F2C;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 12px 0px 12px;
+}
+
+#applyCoupon{
+    font-family: 'Century Gothic', Arial;
+    text-align: left;
+    color: #E77F2C;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 12px 0px 12px;
+}
+
+#btnCoupon{
+    background: white;
+    color: #900C3E;
+    border-style: solid;
+    border-color: #900C3E;
+}
+
+header {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 0px 15px 15px;
+    text-align: left;
+    height: 50px;
+}
+
+#image{
+    width: 25px;
+    transform: scale(0.920);
+    padding-top: -10px;
+}
+
+/* Order Summary Styles */
+#orderSummaryTitle{
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    color: #E77F2C;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 12px 0px 12px;
+}
+
+#priceInfo{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+#priceTotal {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#orderSummaryInfo{
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+#orderTotalPrice {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#checkoutBtn{
+    background: #E77F2C;
+    color: white;
+    font-size: 15px;
+}

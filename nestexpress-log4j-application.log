@@ -1,0 +1,75 @@
+2020-04-14 13:21:31 ERROR SignInController:142 - javax.persistence.PersistenceException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class nestexpress.nest.entity.Orders.total] of primitive type setter of nestexpress.nest.entity.Orders.total
+2020-04-14 13:23:09 ERROR SignInController:142 - javax.persistence.PersistenceException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class nestexpress.nest.entity.Orders.total] of primitive type setter of nestexpress.nest.entity.Orders.total
+2020-04-14 13:37:58 ERROR SignInController:142 - javax.persistence.PersistenceException: org.hibernate.PropertyAccessException: Null value was assigned to a property [class nestexpress.nest.entity.Orders.total] of primitive type setter of nestexpress.nest.entity.Orders.total
+2020-04-15 19:43:38 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-16 21:14:04 ERROR ResultsController:50 - Error Finding keyword: Toiletries
+2020-04-16 21:14:08 ERROR ResultsController:50 - Error Finding keyword: Toiletries
+2020-04-16 21:14:15 ERROR ResultsController:50 - Error Finding keyword: Toiletries
+2020-04-16 21:14:21 ERROR ResultsController:50 - Error Finding keyword: Toiletries
+2020-04-17 03:14:20 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 03:18:55 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 03:18:55 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 03:19:10 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 03:19:11 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 03:19:14 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 03:36:17 ERROR ResultsController:50 - Error Finding keyword: null
+2020-04-17 03:36:18 ERROR ResultsController:50 - Error Finding keyword: null
+2020-04-17 11:49:53 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:49:54 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:49:55 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:49:57 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:49:58 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:49:58 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:49:59 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:50:00 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:50:01 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:50:02 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:50:03 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 11:50:36 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 14:55:25 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 14:55:25 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 16:42:25 WARN  UserController:540 - java.lang.NullPointerException
+<<<<<<< HEAD
+2020-04-17 17:00:22 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:00:52 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:00:52 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:00:52 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:00:59 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:00:59 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:13 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:13 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:13 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:20 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:20 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:34 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:34 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:34 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:41 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:01:41 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:02:50 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:02:50 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:02:50 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:02:57 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:02:57 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:03:53 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:03:53 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:03:54 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:04 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:04 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:26 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:26 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:26 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:33 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:33 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:04:56 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:08:20 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:13:13 WARN  UserController:540 - java.lang.NullPointerException
+2020-04-17 17:18:45 WARN  UserController:540 - java.lang.NullPointerException
+=======
+2020-04-17 16:33:06 WARN  UserController:540 - java.lang.NullPointerException
+>>>>>>> 2d74b0a4e14037b344de7b4c42d20d65ec8a9a17
+<<<<<<< HEAD
+2020-04-17 23:42:49 WARN  UserController:540 - java.lang.NullPointerException
+=======
+2020-04-17 23:35:38 ERROR ResultsController:52 - Error Finding keyword: Toiletries
+>>>>>>> c17f06ffd2d6d856f43ae86d850248915182e41e

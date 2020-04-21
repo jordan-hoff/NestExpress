@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>backend</artifactId>
+	<packaging>${env.product_build}</packaging>
+
+	<parent>
+		<groupId>project.sei-persevere</groupId>
+		<artifactId>spring-boot-vuejs</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<main.basedir>${project.parent.basedir}</main.basedir>
+		<java.version>1.8</java.version>
+		<mssql.version>7.4.1.jre8</mssql.version>
+		<liquibase.version>3.6.3</liquibase.version>
+		<bootstrap.version>4.1.0</bootstrap.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-tomcat</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.session</groupId>
+			<artifactId>spring-session-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!--Bootstrap-->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>${bootstrap.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap-datepicker</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+
+		<!--JQuery-->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+
+		<!--Liquibase-->
+		<dependency>
+			<groupId>org.liquibase</groupId>
+			<artifactId>liquibase-maven-plugin</artifactId>
+			<version>${liquibase.version}</version>
+		</dependency>
+
+		<!--MSSQL-->
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>${mssql.version}</version>
+		</dependency>
+
+		<!--Hibernate-->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.6.Final</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.lambdaworks/scrypt -->
+		<dependency>
+			<groupId>com.lambdaworks</groupId>
+			<artifactId>scrypt</artifactId>
+			<version>1.3.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-hikaricp -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-hikaricp</artifactId>
+			<version>5.4.12.Final</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/com.zaxxer/HikariCP -->
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>3.4.2</version>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>
+		<finalName>ROOT</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+
+			<!--Liquibase-->
+			<plugin>
+				<groupId>org.liquibase</groupId>
+				<artifactId>liquibase-maven-plugin</artifactId>
+				<version>${liquibase.version}</version>
+				<configuration>
+					<changeLogFile>/src/main/resources/liquibase/db.changelog-control.xml</changeLogFile>
+					<propertiesFileWillOverride>false</propertiesFileWillOverride>
+					<promptOnNonLocalDatabase>false</promptOnNonLocalDatabase>
+					<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+					<url>${env.liquibase_url}</url>
+					<username>${env.liquibase_username}</username>
+					<password>${env.liquibase_password}</password>
+				</configuration>
+					<executions>
+						<execution>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>update</goal>
+						</goals>
+			 		</execution>
+		   		</executions>
+			</plugin>
+
+			<!--Resources pluging-->
+			<!--Used to delete previously stored frontend resources-->
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>${project.parent.basedir}/backend/src/main/resources/public</directory>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+
+			<!--Used to connect Vue.js frontend to connect to backend Spring Boot-->
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy Vue.js frontend content</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>src/main/resources/public</outputDirectory>
+							<overwrite>true</overwrite>
+							<resources>
+								<resource>
+									<directory>${project.parent.basedir}/frontend/target/dist</directory>
+									<includes>
+										<include>static/</include>
+										<include>index.html</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+
+			    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-antrun-plugin</artifactId>
+      <version>1.8</version>
+      <executions>
+        <execution>
+          <id>scp-to-remote</id>
+          <phase>package</phase>
+          <goals>
+            <goal>run</goal>
+          </goals>
+          <configuration>
+		  <skip>${env.skipDeploy}</skip>
+            <target>
+              <!-- keyfile+passphrase or  password, choose one -->
+              <!--
+              <scp localFile="${project.basedir}/target/qos-spark-1.0.jar"
+                remoteToFile="root@192.168.203.156:/usr/sanss" verbose="true"
+                keyfile="C:\Users\shengw\.ssh\192.168.203.156\id_rsa"
+                passphrase="">
+              </scp>
+               -->
+              <scp localFile="${project.basedir}\target\ROOT.war"
+                remoteToFile="persevere@nestexpress:/usr/share/tomcat9/nestexpress" verbose="true"
+                password="codingas01" trust="true">
+              </scp>
+            </target>
+          </configuration>
+        </execution>
+      </executions>
+      <!-- libraries for scp impl      -->
+      <!-- antrun doesn't use os's scp -->
+      <dependencies>
+        <dependency>
+          <groupId>com.jcraft</groupId>
+          <artifactId>jsch</artifactId>
+          <version>0.1.53</version>
+        </dependency>
+        <dependency>
+          <groupId>ant</groupId>
+          <artifactId>ant-jsch</artifactId>
+          <version>1.6.5</version>
+        </dependency>
+      </dependencies>
+    </plugin>
+		</plugins>
+	</build>
+</project>

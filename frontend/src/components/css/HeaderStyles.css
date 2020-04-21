@@ -1,0 +1,283 @@
+@import url(https://cdn.syncfusion.com/ej2/material.css);
+
+/* Edit account styles */
+#editAccountSaveBtn {
+    background: #F7882F;
+    color: white;
+    margin: auto;
+    height: 50px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 20px;
+}
+
+#editAccountBtn:hover {
+    color: #F7882F !important;
+    background: transparent !important;
+    border-style: solid;
+    border-radius: thin;
+    border-color: #F7882F;
+}
+
+#editAccountSaveBtn:hover {
+    background: transparent;
+    color: #F7882F;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F7882F;
+}
+
+/* Add funds styles */
+#addFundsBtn {
+    background: #F7882F;
+    color: white;
+    margin: auto;
+    height: 50px;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.dialogCloseBtn {
+    margin-right: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.dialogCloseBtn:hover {
+    background: red;
+    color: white;
+}
+
+#balanceText {
+    font-size: 25px;
+    color: black;
+    height: 100%;
+    margin: auto;
+}
+
+#balanceAmount {
+    font-size: 50px;
+    color:#F7882F;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+}
+
+#addFundsBtn:hover {
+    background: transparent;
+    color: #F7882F;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F7882F;
+}
+
+#creditCardNumber {
+    border-radius: 0% !important;
+    color: black;
+}
+
+#cardholderName {
+    max-width: auto;
+    width: 50%;
+    color: black;
+}
+
+.errorMessageLabel {
+    margin: 10px 0px -40px 0px;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    width: auto;
+    color: red;
+}
+
+#subheader {
+    background: #003B63;
+    width: 100%;
+    border-radius: 0%;
+}
+
+.headline {
+    margin: auto;
+    margin-top: -40px;
+}
+
+#addFundsSubtitle {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#addFundsOverlay {
+    margin: auto;
+    padding: 0px 25px 25px 25px;
+    margin-top: 100px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: auto;
+    border-radius: 0px;
+}
+
+.balance {
+    margin: 10px;
+    display: inline;
+    text-align: end;
+    font-size: 25px;
+}
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+#myAccountBtn {
+    font-family: default;
+    text-transform: none;
+    font-weight: normal;
+    background: white;
+    color: #003B63;
+}
+
+h1 {
+    color: white;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1;
+}
+
+.mx-4 {
+    margin: auto !important;
+    padding-right: 100px;
+    margin-left: 100px !important;
+    border-radius: 0px;
+}
+
+#contactInfo, #contactInfo, #hoursInfo, #helpAboutInfo{
+    color: white;
+    margin-right: 20px;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#cartInfo {
+    color: #003B63;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#balanceInfo:hover, #cartInfo:hover {
+    text-decoration: underline;
+}
+
+#userInfoBalance{
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#flexAccount{
+    margin:10px 0px 30px 10px;
+    max-height:70px;
+   color:green;
+}
+
+#divDiv{
+    margin: 0px 10px 10px 10px;
+}
+
+#pageInfo {
+    width: 100%;
+    background: white !important;
+}
+
+#btnSearch{
+    background: #F7882F;
+    height:55px;
+    margin-top:10px;
+}
+
+#header {
+    width: 0;
+}
+
+#myAccountBtn{
+    background-color:#EEEEEE;
+}
+
+.myAccountInfoBtn {
+    color: black;
+    text-align: left !important;
+    font-size: 15px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    margin-bottom: 0% !important;
+    border-radius: 5px;;
+    text-transform: none;
+}
+
+.myAccountInfoBtn a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    border-radius: 5px;
+}
+
+.myAccountInfo {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+
+.myAccountInfo:hover {
+    text-decoration: underline;
+}
+
+#pageInformation a:hover {
+    text-decoration: underline;
+}
+
+#pageInformation {
+    height: auto;
+}
+
+.headerIcons {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+}
+
+.accountBtn:hover {
+    font-weight: 430;
+}
+
+#walletStyles {
+    text-align: left;
+}
+
+.listItemTitle:hover {
+    font-weight: 435;
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}

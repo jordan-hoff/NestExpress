@@ -1,0 +1,139 @@
+#aboutHeading, #teamHeading {
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+#storeHeading{
+    color: white;
+}
+
+#divAboutCS{
+    margin: auto;
+    width: 260px;
+    border-width: 2px;
+}
+
+#divMeetCEO{
+    margin: auto;
+    width: 150px;
+    border-width: 2px;
+}
+
+#divAboutNE{
+    margin: auto;
+    width: 230px;
+    border-width: 2px;
+}
+
+#quote{
+    color: #4D4D4D;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.teamRoles, .teamNames {
+    font-family: Arial, 'Arial Narrow', sans-serif;
+    font-weight: bold;
+}
+
+.teamDescription{
+    max-width: 600px;
+    margin: auto;
+}
+
+#sheetMeetOurTeam{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+}
+
+#sheetTeamInfo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: white;
+}
+
+#aboutNestExpressSheet{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background: #F7F7F7;
+}
+
+#imgCampusStore{
+    font-family: Arial, 'Arial Narrow', sans-serif;
+    font-size: 16px;
+    max-width: 1220px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+#descriptionNestExpress{
+    font-family: Arial, 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    max-width: 1220px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#aboutDescription{
+    font-family: Arial, 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    max-width: 1220px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#addressStyles {
+    text-align: center;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-family: Arial;
+    color: white;
+}
+
+#storeInfo{
+    border-radius: 0%;
+    background-image: linear-gradient(rgba(12, 16, 33, 0.7), rgba(12, 16, 38, 1)), url(https://drive.google.com/uc?id=1YpAAtbUg8VpD-Cyx4nLHPHcm6jUqKMJF);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#storeDays{
+    text-align: left;
+    padding-left: 10px;
+    color: black;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+#storeHours{
+    text-align: left;
+    padding-left: 30px;
+    color: black;
+    font-size: 17px;
+    font-family: Arial;
+}
+
+a, #addressStyles > a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, #addressStyles > a:hover {
+    text-decoration: underline !important;
+    color: #E77F2C !important;
+}
+
+.imageContainer > #campusStoreImage:hover {
+  width: 500px;
+  height: 200px;
+}
+
+#campusStoreImage{
+    border-radius: 1%;
+    margin: auto;
+}
+
+#campusStoreImage:hover {
+    cursor: zoom-in;
+}

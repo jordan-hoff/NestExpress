@@ -1,0 +1,38 @@
+#footerCard {
+    background-image: url(https://drive.google.com/uc?id=1eONx54YNXXF_oVaAjXVo2cL6eUlXmJdW);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 0%;
+    width: 100%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+    color: white !important;
+}
+
+p, #addressStyles {
+    text-align: center;
+    font-size: 15px !important;
+    font-style: normal !important;
+}
+
+p a, #addressStyles > a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+p a:hover, #addressStyles > a:hover {
+    text-decoration: underline !important;
+}

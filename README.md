@@ -7,14 +7,14 @@ This project has been wrote as a requirement for CS-451 Software Engineering Pro
 This project is a Senior Platform project for Pensacola Christian College CS degree.  Students are given a list of potential projects to develop.  Once several projects have been selected, students are assigned to a project in a team setting.  All requirements are developed by the student and are built from the ground up.
 
 # Project Compiling
-1.  Running the server
-    *  ./scripts/run.sh server
-2.  Running with local database
-    *  ./scripts/run.sh local
-3.  Building a local database with docker
+1.  Building a local database with docker
     *  ./scripts/runLocalDB.sh
-4.  Running Vue server
+2.  Running Vue server
     *  ./scripts/runVue.sh
+3.  Running the server
+    *  ./scripts/run.sh server
+4.  Running with local database
+    *  ./scripts/run.sh local
 
 # Local DB Access
 *  Database URL      - jdbc:sqlserver://localhost:1433;databaseName=SEI_Persevere
